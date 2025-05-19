@@ -13,9 +13,71 @@
         android:layout_height="910dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.502"
         app:srcCompat="@drawable/vintage2" />
+
+    <TextView
+        android:id="@+id/txtQuestions"
+        android:layout_width="390dp"
+        android:layout_height="199dp"
+        android:background="#E2C986"
+        android:backgroundTint="#E2C986"
+        android:hint="YOUR QUESTIONS WILL APPEAR HERE!"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
+
+    <Button
+        android:id="@+id/btnTrue"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#E2C986"
+        android:text="TRUE"
+        android:textColor="#022A6F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <Button
+        android:id="@+id/btnFalse"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#E2C986"
+        android:text="FALSE"
+        android:textColor="#022A6F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <Button
+        android:id="@+id/btnNextQuestion"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#E2C986"
+        android:text="NEXT QUESTION"
+        android:textColor="#022A6F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
