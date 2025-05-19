@@ -80,4 +80,34 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.604" />
 
+    <Button
+        android:id="@+id/btnTerminate"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#E2C986"
+        android:text="EXIT"
+        android:textColor="#022A6F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <Button
+        android:id="@+id/btnViewScore"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#E2C986"
+        android:text="VIEW YOUR SCORE"
+        android:textColor="#022A6F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
