@@ -1,6 +1,7 @@
 package vcmsa.ci.flashcardquiz
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +12,15 @@ class MainActivity3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main3)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val btnExitApp = findViewById<Button>(R.id.btnExitApp)
+         btnExitApp.setOnClickListener {
+             //exit the application
+             finishAffinity()
+         }
+
+
+
+
         }
     }
-}
