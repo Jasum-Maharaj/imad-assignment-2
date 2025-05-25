@@ -21,19 +21,20 @@
 
     <TextView
         android:id="@+id/txtDisplayScore"
-        android:layout_width="394dp"
-        android:layout_height="154dp"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
         android:background="#E2C986"
         android:backgroundTint="#E2C986"
+        android:gravity="center"
         android:hint="YOUR SCORE WILL APPEAR HERE!"
         android:textColor="#022A6F"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintVertical_bias="0.124" />
 
     <Button
         android:id="@+id/btnExitApp"
@@ -45,8 +46,39 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909" />
+        app:layout_constraintVertical_bias="0.926" />
+
+    <Button
+        android:id="@+id/btnReviewMyAnswers"
+        android:layout_width="150dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#E2C986"
+        android:text="REVIEW ANSWERS"
+        android:textColor="#022A6F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="389dp"
+        android:layout_height="406dp"
+        android:background="#E2C986"
+        android:backgroundTint="#E2C986"
+        android:gravity="center"
+        android:hint="YOUR REVIEW WILL APPEAR HERE!"
+        android:textColor="#022A6F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452" />
 </androidx.constraintlayout.widget.ConstraintLayout>

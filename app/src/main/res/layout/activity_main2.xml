@@ -25,6 +25,7 @@
         android:layout_height="199dp"
         android:background="#E2C986"
         android:backgroundTint="#E2C986"
+        android:gravity="center"
         android:hint="YOUR QUESTIONS WILL APPEAR HERE!"
         android:textColor="#022A6F"
         android:textSize="22sp"
@@ -33,7 +34,7 @@
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.148" />
+        app:layout_constraintVertical_bias="0.242" />
 
     <Button
         android:id="@+id/btnTrue"
@@ -45,10 +46,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472" />
+        app:layout_constraintVertical_bias="0.648" />
 
     <Button
         android:id="@+id/btnFalse"
@@ -60,10 +61,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472" />
+        app:layout_constraintVertical_bias="0.648" />
 
     <Button
         android:id="@+id/btnNextQuestion"
@@ -78,7 +79,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604" />
+        app:layout_constraintVertical_bias="0.788" />
 
     <Button
         android:id="@+id/btnTerminate"
@@ -95,19 +96,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.909" />
 
-    <Button
-        android:id="@+id/btnViewScore"
-        android:layout_width="164dp"
-        android:layout_height="80dp"
+    <TextView
+        android:id="@+id/txtAnswers"
+        android:layout_width="350dp"
+        android:layout_height="59dp"
+        android:background="#E2C986"
         android:backgroundTint="#E2C986"
-        android:text="VIEW YOUR SCORE"
+        android:gravity="center"
+        android:hint="YOUR ANSWERS WILL APPEAR HERE!"
+        android:text=""
         android:textColor="#022A6F"
-        android:textSize="20sp"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
+        app:layout_constraintVertical_bias="0.525" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
